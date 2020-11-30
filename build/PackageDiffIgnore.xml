@@ -3317,11 +3317,14 @@
 			<Member
 				fullName="Windows.UI.Xaml.FrameworkElement Windows.UI.Xaml.Media.VisualTreeHelper.TryAdaptNative(System.Object view)"
 				reason="Non UWP API - Has been updated to use UIElement instead of Object"/>
+			<Member
+				fullName="System.Void Windows.UI.Xaml.Controls.DragItemsCompletedEventArgs..ctor()"
+				reason="Not part of the UWP API"/>
 		</Methods>
 	</IgnoreSet>
 
 	<!--
-	Supported nodes (please at the bottom of this file):
+	Supported nodes (please keep at the bottom of this file):
 		<Types>
 		</Types>
 		
